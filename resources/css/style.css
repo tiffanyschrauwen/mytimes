@@ -17,6 +17,7 @@ header {
   align-items: center;
   flex-grow: 1;
   margin-left: 30px;
+  border: 1px solid black;
 }
 
 .logo img {
@@ -40,4 +41,69 @@ a {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.lead-story .image-content {
+    background-image: url(../../resources/images/img-story-main.png);
+    width: 630px;
+    margin-top: 0;
+    font-size: 40px;
+    text-align: left;
+}
+
+.season.image-content {
+  background-image: url(../../resources/images/img-story-2.png);
+}
+
+.pop-culture.image-content {
+  background-image: url(../../resources/images/img-story-3.png);
+}
+
+.cat-ceo.image-content {
+  background-image: url(../../resources/images/img-story-1.png);
+}
+
+.image-content {
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+div {
+  border: 1px solid black;
 }
